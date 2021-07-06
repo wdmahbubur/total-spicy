@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Saira", sans-serif;
 }
 .display-flex {
     display: flex;
@@ -144,7 +144,7 @@ body {
 }
 .sm-follower h1 {
     font-size: 42px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 10px;
     margin-bottom: 12px;
     line-height: 20px;
