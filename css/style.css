@@ -66,11 +66,11 @@ body {
     width: 33%;
     padding: 0 30px;
 }
-.recipe-section {
+.section-wrapper {
     padding: 60px;
     text-align: center;
 }
-.recipe-section h1 {
+.section-wrapper h1 {
     margin-bottom: 20px;
 }
 .card-group {
@@ -91,4 +91,16 @@ body {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
+}
+.why-choose-us-section .card .card-img {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    background-image: linear-gradient(55deg, #c91e27, #f23252);
+}
+.why-choose-us-section .card .card-img img {
+    height: 150px;
+    width: 70%;
+    margin-top: 100px;
 }
