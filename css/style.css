@@ -18,6 +18,7 @@ body {
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 0 6px px rgb(245, 37, 0);
+    cursor: pointer;
 }
 .default-paragraph {
     font-size: 16px;
@@ -67,7 +68,7 @@ body {
     padding: 0 30px;
 }
 .section-wrapper {
-    padding: 60px;
+    padding: 30px 60px;
     text-align: center;
 }
 .section-wrapper h1 {
@@ -92,6 +93,9 @@ body {
     font-weight: 700;
     color: #474747;
 }
+.why-choose-us-section {
+    margin-bottom: 60px;
+}
 .why-choose-us-section .card .card-img {
     height: 250px;
     width: 100%;
@@ -103,4 +107,48 @@ body {
     height: 150px;
     width: 70%;
     margin-top: 100px;
+}
+#contact-us-section {
+    background-image: url(/img/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 14px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fce2d2;
+    font-size: 14px;
+}
+.contact-form input[type="submit"] {
+    margin-left: 10px;
+}
+
+.sm-follower {
+    margin-top: 60px;
+    padding: 60px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 10px rgb(212, 212, 212);
+}
+.sm-follower .fl-width-33 {
+    width: 33%;
+}
+.sm-follower h1 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    line-height: 20px;
+}
+.sm-follower span {
+    color: #6e6e6e;
 }
