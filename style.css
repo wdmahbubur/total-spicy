@@ -52,7 +52,7 @@ body {
     width: 100%;
 }
 .about-section {
-    background-image: url(../img/bg1.jpg);
+    background-image: url(img/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 60px 0px 60px;
@@ -112,7 +112,7 @@ body {
     margin-top: 100px;
 }
 #contact-us-section {
-    background-image: url(../img/bg2.png);
+    background-image: url(img/bg2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
